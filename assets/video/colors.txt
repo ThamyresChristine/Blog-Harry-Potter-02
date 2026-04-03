@@ -1,0 +1,47 @@
+﻿Harry Potter Palette Color Palette
+Hex	RGB
+#641e1e	(100,30,30)
+#c39a1c	(195,154,28)
+#3d2f22	(61,47,34)
+#717679	(113,118,121)
+#efeee9	(239,238,233)
+
+https://www.color-hex.com/color-palette/64222
+
+Harry Potter and the Cursed Child Color Palette
+Hex	RGB
+#f5eca3	(245,236,163)
+#e5ba40	(229,186,64)
+#d1a03a	(209,160,58)
+#c67c29	(198,124,41)
+#704a1f	(112,74,31)
+
+https://www.color-hex.com/color-palette/110116
+
+Parchment Paper Pale Color Palette
+Color	Hex	RGB
+#fff5ee	(255,245,238)
+#fff3e9	(255,243,233)
+#fff1e5	(255,241,229)
+#ffefe2	(255,239,226)
+#ffecdc	(255,236,220)
+
+https://www.color-hex.com/color-palette/62828
+
+Cores das Casas:
+https://codepen.io/Jill-Lambert/pen/bwevpB
+
+
+Parchment
+#F1E9D2
+#E7DFC6
+#D4CAB0
+#C9BEA3
+#998B78
+#716751
+#E9D9B8
+#DAD1AA
+
+https://www.figma.com/colors/parchment/
+
+https://icolorpalette.com/color/parchment-paper

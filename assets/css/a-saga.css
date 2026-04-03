@@ -1,0 +1,101 @@
+﻿@import url('global.css');
+
+html {
+    color: #001F3F;
+}
+
+#titulo-pagina {
+    text-align: center;
+}
+
+details {
+        max-width: 100%;
+        margin: 2px;
+        margin-left: 10px;
+}
+
+.border {
+    border: 3px dashed #001F3F;
+}
+
+.div {
+    display: flex;
+    padding: 5px;
+    margin-left: 7px;
+}
+
+.p {
+    background-color: aliceblue;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-left: 7px;
+    padding: 7px;
+    line-height: 120%;
+}
+
+.a-href {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+
+/*Desktops*/
+@media screen and (min-width:1025px) {
+    #titulo-pagina {
+        font-size: 2rem;
+    }
+    details {
+        font-size: 2.3rem;
+    }
+}
+
+/*Tablets*/
+@media (min-width:768px) and (max-width: 1024px) {
+    #titulo-pagina {
+        font-size: 1.8rem;
+    }
+    details {
+        font-size: 1.8rem;
+    }
+    summary {
+        font-size: 1.8rem;
+    }
+    .div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    img {
+        width: 75%;
+        margin-bottom: 5px;
+    }
+}
+
+/*Smartphones*/
+@media (min-width:344px) and (max-width: 767px) {
+    #titulo-pagina {
+        font-size: 1.8rem;
+    }
+    details {
+        font-size: 1.5rem;
+    }
+    summary {
+        font-size: 1.5rem;
+    }
+    details {
+        font-size: 1.5rem;
+    }
+    .div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    img {
+        width: 70%;
+        margin-bottom: 5px;
+    }
+}
+

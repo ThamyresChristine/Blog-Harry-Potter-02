@@ -1,0 +1,218 @@
+﻿@import url('global.css');
+
+.list {
+    border-radius: 8px;
+    background-color: aliceblue;
+    padding: 0 10px;
+}
+
+ul, ol, p {
+    color:#001F3F;
+}
+
+h3, .subtitulo {
+    color: #c40d0d;
+    text-align: center;
+}
+
+hr {
+    height: 2px;
+    border-width: 0;
+    color: #e5ba40;
+    background-color: #e5ba40;
+    padding: 0;
+    margin: 0;
+}
+
+.section {
+    background-color: aliceblue;
+    margin: 0.5rem;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+#trem, #carta {
+    padding-bottom: 1rem;
+}
+
+.subtitulo img {
+    margin: 0;
+}
+
+
+
+
+/*Desktops*/
+@media screen and (min-width:1025px) {
+    #listas {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(20px, 280px));
+        grid-template-rows: auto;
+        gap:1.5rem;
+        padding: 2rem;
+        place-content: center center;
+    }
+
+    main {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #batalha {
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+
+    .section {
+        width: 95%;
+        font-size: 3vh;
+    }
+
+    #trem, #carta, #section-tabela {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #tabela {
+        width: 800px;
+        margin-top: 1rem;   
+        font-size: 1rem;
+    }
+
+    caption {
+        font-size: 1.5rem;
+    }
+
+    #tabela, th, td {
+        height: 2.8rem;
+    }
+
+    #tabela thead {
+        font-size: 1.2rem;
+    }
+}
+
+/*****Tablets******/
+@media (min-width:768px) and (max-width:1024px) {
+    #listas {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 2rem;
+        place-content: center center;
+    }
+
+    .list {
+        height: 26vh;
+    }
+
+    #batalha {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .list h3, .subtitulo {
+        font-size: 1.5rem;
+    }
+
+    li {
+        font-size: 1.2rem;
+    }
+
+    .section p {
+        font-size: 1.2rem;
+    }
+
+    img {
+        width: 80%;
+    }
+
+    #trem, #carta, #section-tabela {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section {
+        font-size: 3vh;
+        max-width: 95%;
+    }
+
+    #tabela {
+        width: 80vw;
+        font-size: 1rem;
+    }
+
+    caption {
+        font-size: 1.2rem;
+    }
+
+
+}
+
+/****Smartphones*****/
+@media (min-width:344px) and (max-width:767px) {
+    #listas {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        place-content: center center;
+    }
+
+    .list h3, .subtitulo {
+        font-size: 1.5rem;
+    }
+
+    li {
+        font-size: 1.2rem;
+    }
+
+    .section p {
+        font-size: 1.2rem;
+    }
+
+    img {
+        width: 80%;
+    }
+
+    .section {
+        font-size: 3vh;
+        max-width: 100%;
+    }
+
+    .list {
+        width: 100%;
+    }
+
+    #trem, #carta, #section-tabela {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #tabela {
+        width: 80vw;
+        font-size: 1rem;
+    }
+
+    caption {
+        font-size: 1.2rem;
+    }
+
+}
+
+
+

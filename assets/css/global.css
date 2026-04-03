@@ -1,0 +1,244 @@
+﻿/*Global*/
+/*Global*/
+@font-face {
+    font-family: Cardo-regular;
+    src: url('../Fonts/Cardo-Regular.ttf');
+}
+
+@font-face {
+    font-family: Cardo-italic;
+    src: url('../Fonts/Cardo-Italic.ttf');
+}
+
+@font-face {
+    font-family: Cardo-bold;
+    src: url('../Fonts/Cardo-Bold.ttf');
+}
+
+
+html {
+    background-color: #e5ba40;
+    font-family: Cardo-regular; 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+        background-color: aliceblue;
+        border-radius: 8px;
+        margin: 0.5rem 0;
+        padding: 0.8rem;
+        text-align: center;
+        color: #001F3F;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #c40d0d;
+}
+footer span, small {
+        display: block;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-decoration: none;
+        margin: 0;
+}
+
+#titulos {
+        padding-top: 15px;
+        position: relative;
+        z-index: 2;
+}
+
+/*Cabeçalho*/
+header {
+        background-image: url('../img/oqspeqq1a8ha1.png');
+        background-position: center;
+        background-size: cover;
+        color: #e5ba40;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        position: relative;
+}
+
+nav {
+    font-size: 2rem;
+    background-color: #001F3F;
+    z-index: 1000;
+}
+
+#nav li {
+        list-style-type: none;
+        display: inline-block;
+}
+
+#nav li a {
+        text-decoration: none;
+        color: #e5ba40;
+}
+
+#nav li a:hover {
+        background-color: whitesmoke;
+        color: #001F3F;
+}
+
+button {
+        background-color: #001F3F;
+        color: #e5ba40;
+        font-size: 2rem;
+        border: 0;
+}
+
+/***Desktops****/
+@media screen and (min-width:1025px) { 
+
+    /*Cabeçalho*/
+    header {
+        height: 60vh;
+        min-height: 400px;
+    }
+
+    #titulos {
+        font-size:  3.2rem;
+    }
+
+    nav {
+        max-width: 100%;
+        position: sticky;
+        top:0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 8vh;
+    }
+
+    button {
+        display: none;
+    }
+
+    #nav .closebtn {
+        display: none;
+    }
+
+}
+
+
+/*****Tablets******/
+@media (min-width:768px) and (max-width:1024px) {
+        /*Cabeçalho*/
+        header {
+            height: 40vh;
+        }
+
+        #titulos{
+            font-size: 2rem;
+        }
+
+        #nav {
+            width: 0;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #001F3F;
+            overflow-x: hidden;
+            padding-top: 15px;
+            transition: 0.5s;
+        }
+
+        #nav li a { 
+            padding: 8px 8px 8px 32px;
+            display: block;
+            transition: 0.3s;
+        }
+        
+        button {
+            display: block;
+            width: 100%;
+        }
+
+
+        #nav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 2rem;
+            margin-left: 50px;
+            color: #e5ba40;
+        }
+
+        footer span, small {
+            font-size: 1rem;
+        }
+}
+
+
+/****Smartphones*****/
+@media (min-width:344px) and (max-width:767px) {
+    /*Cabeçalho*/
+        header {
+            height: 40vh;
+        }
+
+        #titulos{
+            font-size: 1.3rem;
+        }
+
+        nav {
+            font-size: 1.5rem;
+        }
+
+        #nav {
+            width: 0;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #001F3F;
+            overflow-x: hidden;
+            padding-top: 15px;
+            transition: 0.5s;
+        }
+
+        #nav li a { 
+            padding: 8px 8px 8px 32px;
+            display: block;
+            transition: 0.3s;
+        }
+        
+        button {
+            display: block;
+            width: 100%;
+        }
+
+        #nav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 2rem;
+            margin-left: 50px;
+            color: #e5ba40;
+        }
+
+        footer span, small {
+            font-size: 0.8rem;
+        }
+}
+

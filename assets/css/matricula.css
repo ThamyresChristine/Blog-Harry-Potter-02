@@ -1,0 +1,90 @@
+﻿@import url('global.css');
+
+html {
+    color: #001F3F; 
+}
+#titulo-pagina {
+    text-align: center;
+}
+
+form {
+    background-color: #f5eca3;
+}
+
+fieldset {
+    border-color: #c40d0d;
+    border-radius: 8px;
+    margin: 2px 7px 10px;
+}
+
+small {
+    text-align: left;
+    margin-left: 0.8rem;
+    
+}
+
+#submit-form {
+    text-align: center; 
+    margin: 0.5rem 0 0.5rem;  
+}
+
+#submit {
+    background-color: #001F3F;
+    color: #fff5ee;
+    border-radius: 8px;
+}
+/**Desktops**/
+@media screen and (min-width:1025px) {
+    #titulo-pagina {
+        font-size: 2.5rem; 
+    }
+    form {
+        font-size: 1.5rem;
+    }
+    fieldset {
+        font-size: 1.5rem;
+    }
+    small {
+        font-size: 1.2rem;
+    }
+    #submit {
+        width: 12rem;
+        height: 3rem;
+        font-size: 2rem;
+    }
+}
+/*Tablets*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    #submit {
+        width: 8rem;
+        height: 2.2rem;
+        font-size: 1.2rem;
+    }
+}
+/*Smartphones*/
+@media (min-width:344px) and (max-width: 767px) {
+    #titulo-pagina {
+        font-size: 1.2rem; 
+    }
+    form {
+        font-size: 1rem;
+    }
+    fieldset {
+        font-size: 1rem;
+    }
+    small {
+        font-size: 0.8rem;
+    }
+    #submit {
+        width: 8rem;
+        height: 2.2rem;
+        font-size: 1.2rem;
+    }
+
+}
+
+
+
+
+
+
