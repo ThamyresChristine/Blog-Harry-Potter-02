@@ -12,9 +12,8 @@
 
 ## O que foi aprendido
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+Foi aprendido o fundamental de HMTL e CSS para criação de um site. No HTML, destaca-se os acordeões feitos na página "A Saga" com as as tags _details_, _summary_ e _div_ para 
+exibir a imagem e um resumo de cada livro da saga.
 
 ```html
 <details>
@@ -31,6 +30,8 @@ To see how you can add code snippets, see below:
 </details>
 ```
 
+No CSS detalhe para a estilização do cabeçalho e menu principal do site, adicionando uma imagem de fundo ocupando todo o plano de fundo do titulo principal, aplicação das propriedades _flex_ _position relative com z-index_ no menu para uma visualização horizontal e que não sai da tela enquanto o usuário dá um scroll na página.
+
 ```css
 header {
         background-image: url('../img/oqspeqq1a8ha1.png');
@@ -44,25 +45,33 @@ header {
         align-items: center;
         position: relative;
 }
+nav {
+    font-size: 2rem;
+    background-color: #001F3F;
+    z-index: 1000;
+}
 ```
 
 ## O uso da IA
 
-Foi utilizado o ChatGPT para a
-
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)? ChatGPT
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)? Criação dos textos e imagens
-- What worked well? What didn't?
+Foi utilizado o ChatGPT para a criação das imagens e de parte dos textos. 
+Nas imagens, solicitou-se a IA a criação das imagens no estilo do _studio Ghibli_. Os prompts foram específicos - pedindo como deveria ser o plano de funda da imagem, solicitando as características marcantes dos personagens e as feições de acordo com os livros.
+Quanto aos textos, foi pedido apenas para a IA para produzir diferentes tipos de texto:
+- fazer um resumo de cada um dos personagens citados, destacando suas características principais
+- organizar as informações e curiosidades da história em listas
 
 ## Recursos Utilizados
+A fonte do site foi retirada da biblioteca do Google: 
+- [Example resource 1](https://www.example.com)
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+A paleta de cores foi de acordo com as cores apresentadas nos filmes e foi encontrada em dois sites:
+- [Example resource 2](https://www.example.com)
+- [Example resource 2](https://www.example.com)
 
 ## Aprendizado Contínuo
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Foi o primeiro projeto de FrontEnd, utilizando o fundamental de HTML e CSS. Para os próximos projetos, desejo consolidar os conceitos de HTML e aprofundar em CSS intermediário (mais layouts e transições).
 
 ## Agradecimentos
 
-
+Este projeto é resultado de uma série de aulas junto com o [Nicholas](). Agradeço pela oportunidade de aprender coisas novas e parceria na jornada da programação.
