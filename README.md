@@ -2,7 +2,7 @@
 
 ## O Projeto: [Fandom Harry Potter](#)
 
-## Foi feito com
+## Foi feito com 
 - HTML5 Semântico
 - CSS Colors e Fonts(font-face)
 - CSS Flebox
